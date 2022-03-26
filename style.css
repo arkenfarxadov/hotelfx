@@ -106,7 +106,7 @@ input[type="radio"]{
 #display2:checked ~ .head-display-off{display: none;}
 
 .sec-1{
-    background: url(./img/1.jpg) black top no-repeat;
+    background: url(./img/1.png) top no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 700px;
@@ -115,18 +115,8 @@ input[type="radio"]{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* margin-bottom: -50px; */
-}
-.sec-1::before{
-    min-height: 700px;
-    width: 100%;
-    height: 100%;
-    content: "";
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.486);
-    position: absolute;
-    top: 0;
-    left: 0;
+    /* margin-bottom: -50px; */
 }
 .sec-1-container{
     z-index: 2;
